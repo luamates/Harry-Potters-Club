@@ -97,6 +97,13 @@ body::-webkit-scrollbar {
     color: black;
     font-weight: 950;
   }
+
+  #selected {
+    background-color: rgb(208, 193, 175);
+    color: black;
+    font-weight: 950;
+    border-radius: 5px;
+  }
   
   /*END OF MAIN MENU OR SO #0a1226    #0e366b*/
   

@@ -85,11 +85,11 @@ body::-webkit-scrollbar {
   }
   
   #tutorial {
-    background-color: rgb(208, 193, 175);
-    color: rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: .3s;
-    font-weight: 950;
+      background-color: rgb(208, 193, 175);
+      color: black;
+      font-weight: 950;
+      border-radius: 5px;
+    
   }
   
   /*END OF MAIN MENU OR SO #0a1226    #0e366b*/

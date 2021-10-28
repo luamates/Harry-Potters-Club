@@ -8,6 +8,13 @@
   user-select: none;
 }
 
+#selected {
+  background-color: rgb(208, 193, 175);
+  color: black;
+  font-weight: 950;
+  border-radius: 5px;
+}
+
 #header1 {
   background-color: rgb(0, 12, 29);
   margin: 0px;
@@ -102,7 +109,7 @@ body {
   height: 120vh;
   font-weight: 100;
   background: linear-gradient(rgba(6, 19, 43, 0.5), rgba(38, 34, 4, 0.5)), url("../img/castleBackground.jpg");
-  background-color: #cccccc;
+  background-color: #000000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
