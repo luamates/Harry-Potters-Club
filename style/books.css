@@ -104,6 +104,30 @@ body::-webkit-scrollbar {
     font-weight: 950;
     border-radius: 5px;
   }
+
+  @media (max-width: 360px) {
+    li a {
+      padding: 5px 7px;
+      transition: .5s;
+    }
+    
+    li a:hover {
+      border-radius: 5px;
+      transition: .5s;
+    }
+    
+    #tutorial {
+      border-radius: 5px;
+      transition: .5s;
+    }
+  }
+  
+  @media (max-width: 331px) {
+    li {
+      display: flex;
+      padding-left: 40%;
+    }
+  }
   
   /*END OF MAIN MENU OR SO #0a1226    #0e366b*/
   
@@ -310,6 +334,7 @@ body {
     color: rgb(0, 0, 0);
     text-align: center;
     display: block;
+    padding-bottom: 13px;
   }
 
   #effect {
