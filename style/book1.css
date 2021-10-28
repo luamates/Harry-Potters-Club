@@ -213,6 +213,42 @@ body {
     margin-bottom: 10px;
   }
 
+  @media all and (max-width: 1000px) {
+    #content01 {
+      font-size: 25px;
+      width: 65%;    
+    }
+
+    #pomo {
+      width: 150px;
+      top: 40vh;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 700px) {
+    #content01 {
+      font-size: 25px;
+      width: 75%;    
+    }
+
+    #pomo {
+      width: 145px;
+      top: 35vh;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    #content01 {
+      font-size: 25px;
+      width: 85%;    
+    }
+
+    #pomo {
+      width: 140px;
+      top: 30vh;
+    }
+  }
+
   #pdfFiles {
     border-radius: 25px;
     border-width: 5px;

@@ -219,6 +219,27 @@ body {
     margin-bottom: 10px;
   }
 
+  @media all and (max-width: 1000px) {
+    #content01 {
+      font-size: 25px;
+      width: 65%;    
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 700px) {
+    #content01 {
+      font-size: 25px;
+      width: 75%;    
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    #content01 {
+      font-size: 25px;
+      width: 85%;    
+    }
+  }
+
   #mischiefMap {
     width: 80%;
     border-width: 10px;
