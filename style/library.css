@@ -141,7 +141,7 @@ body {
   border-style: outset;
   border-color: transparent;
   border-radius: 12px;
-}
+} 
 
 #pomo:hover {
 
@@ -290,6 +290,7 @@ body {
       border-radius: 8px;
       border-width: 10px;
       text-align: center;
+      border-color: transparent;
       margin: 5px;
       transition: .3s;
       display: block;
@@ -297,7 +298,8 @@ body {
 
 #select:hover {
   background-color: white;
-  border-radius: 15px;
+  border-width: 15px;
+  border-color: white;
 }
 
   #footer {

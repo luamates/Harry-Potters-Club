@@ -374,6 +374,7 @@ button:focus {
   font-weight: 200;
   color: white;
   font-size: 2em;
+  text-align: center;
 }
 
 #head1,
