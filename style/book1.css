@@ -1,15 +1,15 @@
-.noselect {
-  cursor: default;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  .noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-body::-webkit-scrollbar {
-    width: 1em;
+  body::-webkit-scrollbar {
+      width: 1em;
   }
    
   body::-webkit-scrollbar-track {
@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
     outline: 1px solid rgb(43, 76, 109);
   }
 
-#header1 {
+  #header1 {
     background-color: rgb(0, 12, 29);
     margin: 0px;
     opacity: .8;
@@ -32,9 +32,9 @@ body::-webkit-scrollbar {
     transition: .3s;
     width: 100%;
     -webkit-animation: fadeIn 1 1s ease-out;
-  -moz-animation: fadeIn 1 1s ease-out;
-  -o-animation: fadeIn 1 1s ease-out;
-  animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
   }
   
   #logo {
@@ -57,15 +57,14 @@ body::-webkit-scrollbar {
     text-align: center;
     opacity: .9;
     -webkit-animation: fadeIn 1 1s ease-out;
-  -moz-animation: fadeIn 1 1s ease-out;
-  -o-animation: fadeIn 1 1s ease-out;
-  animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
   }
   
   li {
     display: inline-block;
     padding-left: 15px;
-  
   }
   
   li a {
@@ -146,15 +145,12 @@ body {
 
 #pomo {
   position: absolute;
-
   background: transparent;
-
   width: 170px;
   -webkit-animation: fadeIn 1 1s ease-out;
   -moz-animation: fadeIn 1 1s ease-out;
   -o-animation: fadeIn 1 1s ease-out;
   animation: fadeIn 1 1s ease-out;
-
   opacity: .9;
   top: 50vh;
   bottom: 0px;
@@ -169,7 +165,6 @@ body {
 }
 
 #pomo:hover {
-
   width: 220px;
   filter: drop-shadow(7px 7px 7px rgb(126, 145, 194));
 }
@@ -179,14 +174,11 @@ body {
     margin: 0;
     height: 95vh;
     font-weight: 100;
-    
     background: linear-gradient(rgba(25, 59, 169, 0.09), rgba(12, 56, 139, 0.09)), url("../img/library.jpg");
     background-color: #cccccc;
-  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
     overflow-y: hidden;
     -webkit-animation: fadeIn 1 1s ease-out;
     -moz-animation: fadeIn 1 1s ease-out;
@@ -202,7 +194,6 @@ body {
     font-weight: 100;
     transition: .3s;
     background: linear-gradient(rgba(5, 17, 58, 0.364), rgba(72, 10, 170, 0.227)), url("../img/backstars.gif");
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,9 +341,9 @@ body {
     margin-top: 2px;
     transition: .3s;
     -webkit-animation: fadeIn 1 1s ease-out;
-  -moz-animation: fadeIn 1 1s ease-out;
-  -o-animation: fadeIn 1 1s ease-out;
-  animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
   }
 
   #wizarding {
