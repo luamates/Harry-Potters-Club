@@ -283,9 +283,27 @@ body {
     height: 600px;
   }
 
+  @media all and (min-height: 680px) {
+    #pdfFiles {
+      height: 700px;
+    }
+  }
+
+  @media (min-height: 600px) and (max-height: 680px) {
+    #pdfFiles {
+      height: 615px;
+    }
+  }
+
+  @media (min-height: 540px) and (max-height: 600px) {
+    #pdfFiles {
+      height: 530px;
+    }
+  }
+
   @media (min-height: 400px) and (max-height: 540px) {
     #pdfFiles {
-      height: 420px;
+      height: 410px;
     }
   }
 
