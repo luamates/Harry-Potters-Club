@@ -257,7 +257,7 @@ body {
     }
   }
 
-  @media (min-width: 500px) and (max-width: 700px) {
+  @media (min-width: 540px) and (max-width: 740px) {
     #content01 {
       font-size: 25px;
       width: 75%;    
@@ -269,7 +269,7 @@ body {
     }
   }
 
-  @media all and (max-width: 500px) {
+  @media all and (max-width: 540px) {
     #content01 {
       font-size: 25px;
       width: 85%;    
@@ -311,28 +311,68 @@ body {
       text-align: center;
   }
 
+  #bookList {
+    text-align: center;
+    float: middle;
+    display: block;
+  }
+
   #bookLink {
       text-decoration: none;
-      color: black;
+      color: rgb(0, 0, 0);
       text-align: center;
       transition: .3s;
   }
 
   #select {
-      border-radius: 8px;
+      border-radius: 5px;
       border-width: 10px;
       text-align: center;
       border-color: transparent;
-      margin: 5px;
+      background-color: rgba(60, 92, 221, 0.713);
+      width: 55%;
+      margin: 3px;
+      padding: 5px;
       transition: .3s;
-      display: block;
+      display: inline-block;
   }
 
-#select:hover {
-  background-color: white;
-  border-width: 15px;
-  border-color: white;
-}
+  #select:hover {
+    background-color: white;
+    border-width: 15px;
+    width: 56%;
+    border-color: white;
+  }
+
+  @media (min-width: 1110px) and (max-width: 1310px) {
+    #select {
+      width: 65%;
+    }
+
+    #select:hover {
+      width: 70%;
+    }
+  }
+
+  @media (min-width: 650px) and (max-width: 1110px) {
+    #select {
+      width: 75%;
+    }
+
+    #select:hover {
+      width: 80%;
+    }
+  }
+
+  @media all and (max-width: 650px) {
+    #select {
+      width: 90%;
+    }
+
+    #select:hover {
+      width: 93%;
+    }
+  }
 
   #footer {
     width: 100%;
