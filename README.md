@@ -1,5 +1,6 @@
 # Harry-Potters-Club
 Página de um clube desenvolvido em HTML, CSS, e JavaScript com a temática Harry Potter.
+O site é responsivo, podendo ser visualizado em qualquer tipo de dispositivo (computadores, tablets, smartphones e etc.).
 
 Preview: https://luamates.github.io/Harry-Potters-Club/index.html
 
